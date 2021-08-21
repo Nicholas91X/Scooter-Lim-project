@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+
+/* Setto background nel body */
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+/* Setto proprietà di main */
+main {
+  width: 50%;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 3%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Setto l'header */
+main > header {
+  margin-top: 70px;
+}
+
+#Logo {
+  width: 25%;
+  height:40%;
+  margin: auto;
+}
+
+header > h3 {
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 255, 0);
+}
+
+header img {
+  width: 100%;
+  margin: auto;
+}
+
+/* Setto proprietà comuni a nav e al contenitore delle sections */
+main > div, nav{
+  width:80%;
+  margin: auto;
+}
+
+/* Setto il nav */
+nav {
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+}
+
+nav > button {
+  font-size: 8px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Soluzione per centrare verticalmente i buttons */
+}
+
+/* Setto le proprietà delle sections */
+* section {
+  margin-top: 15px;
+  color: white
+}
+
+section > h5 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+h5.arrow:before {
+  content: "\2907";
+}
+
+section > h4:before {
+  content: "\2610";
+}
+
+/* Setto le proprietà delle barre di caricamento */
+#caricamento-sezione-1 {
+  height: 15px;
+  width: 35%;
+  background-color: orange;
+  border-radius: 3%;
+}
+
+#caricamento-sezione-2 {
+  height: 15px;
+  width: 75%;
+  background-color: green;
+  border-radius: 3%;
+}
+
+#caricamento-sezione-3 {
+  height: 15px;
+  width: 15%;
+  background-color: purple;
+  border-radius: 3%;
+}
